@@ -8,12 +8,11 @@ type Props = {
         id: number;
         title: string;
         image: string;
-        percent: string; // Example: "60%"
+        percent: number; 
     };
 };
 
 const SkillCard = ({ skill }: Props) => {
-    const percentage = parseInt(skill.percent); // Convert percent string to number
 
     return (
         <div data-aos="flip-up" className="p-6 duration-300 transition-all cursor-pointer text-center rounded-lg s-dow">
@@ -22,14 +21,14 @@ const SkillCard = ({ skill }: Props) => {
 
             <div className="w-14 h-14 mx-auto mt-4 relative flex items-center justify-center">
                 <CircularProgressbar
-                    value={percentage}
+                  value={skill.percent}
                     styles={buildStyles({
                         pathColor: '#4CAF50', 
                         trailColor: '#ddd',
                         textColor: 'transparent', 
                     })}
                 />
-                <div className="absolute text-[13px] font-bold text-black">{percentage}%</div>
+                <div className="absolute text-[13px] font-bold text-black">{skill.percent}%</div>
             </div>
         </div>
     );

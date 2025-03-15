@@ -1,6 +1,6 @@
 import React from 'react'
 import SkillCard from './SkillCard'
-import {skills} from "@/Data/data"
+import {skills} from '@/Data/data'
 
 
 const Skills = () => {

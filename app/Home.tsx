@@ -9,7 +9,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Reviews from "./Reviews/Reviews"
 import Services from "./services/page"
-import Skills from "../app/skills/page"
+import Skills from "./skills/page"
 
 
 
