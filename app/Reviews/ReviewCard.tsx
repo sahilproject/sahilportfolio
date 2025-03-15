@@ -8,7 +8,6 @@ type props ={
         name: string;
         review: string;
         rating: number;
-        profession: string;
         image: string;
     }
 }
