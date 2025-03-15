@@ -9,7 +9,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Services from "././services/page"
 import Reviews from "./Reviews/Reviews"
-import Skills from "././skills/page"
+// import Skills from "./skills/page"
 
 
 
@@ -34,7 +34,7 @@ useEffect(()=>{
       <Hero/>
       <About/>
       <Project/>
-      <Skills/>
+      {/* <Skills/> */}
       <Services/>
       <Reviews/>
       <Blog/>
