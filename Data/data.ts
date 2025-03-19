@@ -84,12 +84,7 @@ export const projectsInfo = [
   
 ];
 
-// export interface skills{
-//   id: number;
-//   title: string;
-//   image: string;
-//   percent: number;
-// }
+
 
 export const skills=[
   {
