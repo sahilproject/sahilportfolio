@@ -4,7 +4,7 @@ import Image from "next/image";
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 
-interface skills{
+interface skillsType{
   id: number;
   title: string;
   image: string;
@@ -25,7 +25,7 @@ const Skills = () => {
 
       {/* Skills Grid */}
       <div className="mt-20 w-[80%] mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 items-center">
-        {skills.map((skill) => (
+        {skills.map((skill:skillsType) => (
           <div
             key={skill.id}
             data-aos="flip-up"
