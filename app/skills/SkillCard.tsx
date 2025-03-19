@@ -1,5 +1,3 @@
-import { skills } from "@/Data/data";
-import { Box } from "@mui/material";
 import Image from "next/image";
 import React from "react";
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";

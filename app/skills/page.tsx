@@ -14,8 +14,8 @@ const Skills = () => {
       </div>
       <div className=' mt-20 w-[80%] mx-auto grid grid-col-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 items-center'>
         {
-            skills.map((skill)=>{
-                return <div key={skill.id}>
+            skills.map((skill,index)=>{
+                return <div key={index}>
                     <SkillCard skill={skill}/>
                 </div>
             })
