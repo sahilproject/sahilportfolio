@@ -10,13 +10,13 @@ import { FaGithub } from "react-icons/fa";
 const Project = () => {
   return (
     <>
-      <div id="projects" className="pt-23 pb-18 bg-[#F2F2F2] text-white">
-        <div data-aos="fade-up" className="flex justify-center">
+      <Box id="projects" className="pt-23 pb-18 bg-[#F2F2F2] text-white">
+        <Box data-aos="fade-up" className="flex justify-center">
           <h2 className="about-heading bg-heading">
             My <span style={{ color: "blue", fontSize: "35px" }}>P</span>rojects
           </h2>
-        </div>
-        <div className="text-black w-[80%] mx-auto mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 items-center">
+        </Box>
+        <Box className="text-black w-[80%] mx-auto mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 items-center">
           {projectsInfo.map((project) => {
             return (
               <div
@@ -43,17 +43,18 @@ const Project = () => {
                     }}
                   >
                     <h2 className="text-center ">Live ↗️</h2>
-                    
+                 
                     <a href={project.gitlurl}  target="_blank" style={{paddingTop:"1px"}}>
                       <FaGithub size={20}/>
                     </a>
+                   
                   </Box>
                 </Link>
               </div>
             );
           })}
-        </div>
-      </div>
+        </Box>
+      </Box>
     </>
   );
 };

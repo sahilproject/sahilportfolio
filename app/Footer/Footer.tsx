@@ -11,10 +11,10 @@ const Footer = () => {
       </div>
        <div className='flex items-center flex-wrap justify-center space-x-10 space-y-4 text-black font-bold'>
          <div>Home</div>
-         <div>Srvices</div>
+         <div>Services</div>
          <div>Project</div>
          <div>Reviews</div>
-         <div>Contact</div>
+         <div style={{marginBottom:"18px"}}>Contact</div>
        </div>
        <p className='text-gray text-opacity-60 text-center mt-7 '>© 2025 All Rights Reserved by SnappyWeb.</p>
     </div>

@@ -5,7 +5,7 @@ import Slider from './Slider'
 const Reviews = () => {
   return (
     <>
-    <div id='reviews' className='pt-15 pb-15 bg-[#ececec]'>
+    <div id='reviews' className='pt-25 pb-15 bg-[#ececec]'>
     <div data-aos="fade-up" className="flex justify-center text-white">
         <h2 className="about-heading bg-heading">
           Client <span style={{ color: "blue", fontSize: "35px" }}>R</span>eviews
