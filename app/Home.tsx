@@ -5,7 +5,7 @@ import Blog from "./blog/page"
 import Contact from "./contact/page"
 import Hero from "./Hero/Hero"
 import Project from "./projects/page"
-import AOS from 'aos';
+import AOS from "aos";
 import 'aos/dist/aos.css';
 import Reviews from "./Reviews/Reviews"
 import Services from "./services/page"
