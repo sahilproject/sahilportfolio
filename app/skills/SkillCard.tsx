@@ -3,14 +3,6 @@ import React from "react";
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 
-// type Props = {
-//     skill: {
-//         id: number;
-//         title: string;
-//         image: string;
-//         percent: number; // Example: "60%"
-//     };
-// };
 
 const SkillCard = ({ skill }: { skill: { title: string; image: string; percent: number } }) => {
   return (
