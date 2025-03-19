@@ -84,70 +84,70 @@ export const projectsInfo = [
   
 ];
 
-export interface skills{
-  id: number;
-  title: string;
-  image: string;
-  percent: number;
-}
+// export interface skills{
+//   id: number;
+//   title: string;
+//   image: string;
+//   percent: number;
+// }
 
 export const skills=[
   {
-    // id:1,
+    id:1,
     title:"React",
     image:"/images/react.svg",
     percent:90
   },
   {
-    // id:2,
+    id:2,
     title:"Next js",
     image:"/images/Next.js.svg",
     percent:60
   },
   {
-    // id:3,
+    id:3,
     title:"Js",
     image:"/images/js.svg",
     percent:85
   },
   {
-    // id:4,
+    id:4,
     title:"React Bootstrap",
     image:"/images/r-bootstrap.svg",
     percent:85
   },
   {
-    // id:5,
+    id:5,
     title:"Material UI",
     image:"/images/mui.png",
     percent:90
   },
   {
-    // id:6,
+    id:6,
     title:"Supabase",
     image:"/images/supabase.jpg",
     percent:80
   },
   {
-    // id:7,
+    id:7,
     title:"HTML",
     image:"/images/html.svg",
     percent:80
   },
   {
-    // id:8,
+    id:8,
     title:"CSS",
     image:"/images/css.svg",
     percent:80
   },
   {
-    // id:9,
+    id:9,
     title:"TS",
     image:"/images/ts.svg",
     percent:65
   },
   {
-    // id:10,
+    id:10,
     title:"SASS",
     image:"/images/Sass.svg",
     percent:60
