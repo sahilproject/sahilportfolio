@@ -18,11 +18,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "My Portfolio",
     description: "Welcome to my portfolio website. Showcasing my projects and skills.",
-    url: "http://localhost:3000",
+    url: "https://myportfolio-in-chi.vercel.app/",
     siteName: "My Portfolio",
     images: [
       {
-        url: "http://localhost:3000/og-image.jpg",
+        url: "https://myportfolio-in-chi.vercel.app/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "My Portfolio Preview",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "My Portfolio",
     description: "Welcome to my portfolio website. Showcasing my projects and skills.",
-    images: ["http://localhost:3000/og-image.jpg"],
+    images: ["https://myportfolio-in-chi.vercel.app/og-image.jpg"],
   },
 };
 
