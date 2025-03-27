@@ -12,7 +12,7 @@ interface Project {
   title: string;
   projectUrl: string;
   gitupUrl: string;
-  image: any
+  image: string
 }
 
 
