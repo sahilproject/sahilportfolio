@@ -20,7 +20,7 @@ const Hero = () => {
             </h2>
             <h2
               data-aos="fade-left"
-              className="shining-text text-bg text-3xl sm:text-4xl md:text-5xl lg:text-7xl  xl:text-7xl font-bold md:leading-[3.5rem] xl:leading
+              className=" shining-text text-bg text-3xl sm:text-4xl md:text-5xl lg:text-7xl  xl:text-7xl font-bold md:leading-[4.5rem] xl:leading
                 -[14rem] text-white"
             >
               {baseInfo.position}
