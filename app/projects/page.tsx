@@ -5,23 +5,18 @@ import { Box } from "@mui/material";
 import Image from "next/image";
 import { FaGithub } from "react-icons/fa";
 
-
-
 interface Project {
   _id: string;
   title: string;
   projectUrl: string;
   gitupUrl: string;
-  image: string
+  image: string;
 }
-
-
 
 const Project = () => {
   const [projects, setProjects] = useState<Project[]>([]);
 
   console.log(projects);
-
 
   useEffect(() => {
     async function fetchData() {
@@ -42,7 +37,7 @@ const Project = () => {
     }
 
     fetchData();
-  }, []);
+  }, []);
 
   return (
     <Box id="projects" className="pt-23 pb-18 bg-[#F2F2F2] text-white">
@@ -61,16 +56,16 @@ const Project = () => {
             key={project._id}
             className="s-dow bg--950 p-2 rounded-lg"
           >
-
-<Image
-  src={project.image}
-  alt={project.title}
-  className="w-full rounded-lg"
-  width={300}
-  height={200}
-  unoptimized={true}  
-/>
-
+            <div className="h-[200px] flex items-center">
+            <Image
+              src={project.image}
+              alt={project.title}
+              className="w-full rounded-lg"
+              width={300}
+              height={200}
+              unoptimized={true}
+            />
+            </div>
             <h2 className="text-center pt-3">{project.title}</h2>
             <Box className="flex justify-center gap-4">
               <a
