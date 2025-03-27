@@ -13,13 +13,7 @@ import Project from "./projects/page";
 
 
 
-interface Project {
-  _id: string;
-  title: string;
-  description: string;
-}
-
-const Home = ({ projects }: { projects: Project[] }) => {
+const Home = () => {
   useEffect(() => {
     const initAOS = async () => {
       await import("aos");
@@ -37,7 +31,7 @@ const Home = ({ projects }: { projects: Project[] }) => {
     <>
       <Hero />
       <About />
-      <Project projects={projects} /> 
+      <Project/> 
       <Skills />
       <Services />
       <Reviews />
