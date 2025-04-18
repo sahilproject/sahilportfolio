@@ -10,8 +10,10 @@ import { FaDownload } from "react-icons/fa";
 const About = () => {
   return (
     <>
-    <div id="about" className="pt-25 pb-10 bg-[#ececec] text-white ">
-      <div data-aos="fade-up" className="flex justify-center" >
+    {/* changes this line  */}
+<div id="about" className="pt-24 pb-16 bg-[#ececec] text-white overflow-hidden">
+  
+<div data-aos="fade-up" className="flex justify-center" >
         <h2 className="about-heading bg-heading">
           <span>About </span>
           <span style={{ color: "blue", fontSize: "35px" }}>m</span>
@@ -62,7 +64,7 @@ const About = () => {
             >
               <Link
                 href={
-                  "https://drive.google.com/file/d/1l3Lm39N2TenHCDe1C_nTBOb-nilxg2eL/view?usp=sharing"
+                  "https://drive.google.com/file/d/16BkVUoZm2Lmq-SiOr4XFZmqhiqNhkz90/view?usp=sharing"
                 }
               >
                 <span className="cursor-pointer">See CV</span>

@@ -4,10 +4,12 @@ import Link from "next/link";
 import React from "react";
 import { FaDownload } from "react-icons/fa";
 
+
+
 const Hero = () => {
   return (
 <div className="w-full pt-[29vh]  md:pt-[12vh] h-screen bg-[#F2F2F2] overflow-hidden relative">
-      <div className="flex justify-center flex-col w-4/5 h-full mx-auto">
+      <div className="flex justify-center flex-col w-full max-w-screen-xl h-full mx-auto px-4">
         <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-12 ">
           {/* text content  */}
           <div>
@@ -43,7 +45,7 @@ const Hero = () => {
             >
               <Link
                 href={
-                  "https://drive.google.com/file/d/1l3Lm39N2TenHCDe1C_nTBOb-nilxg2eL/view?usp=sharing"
+                  "https://drive.google.com/file/d/16BkVUoZm2Lmq-SiOr4XFZmqhiqNhkz90/view?usp=sharing"
                 }
               >
                 <span className="cursor-pointer">Download CV</span>
