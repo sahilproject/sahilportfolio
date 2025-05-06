@@ -64,7 +64,7 @@ const About = () => {
             >
               <Link
                 href={
-                  "https://drive.google.com/file/d/16BkVUoZm2Lmq-SiOr4XFZmqhiqNhkz90/view?usp=sharing"
+                  "https://drive.google.com/file/d/1LiYgypf8FAh6F_6vLejCx_4DXOhIM8T3/view?usp=sharing"
                 }
               >
                 <span className="cursor-pointer">See CV</span>
